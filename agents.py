@@ -1,6 +1,5 @@
 from crewai import Agent
 from textwrap import dedent
-from langchain_openai import ChatOpenAI
 from langchain.llms import Ollama
 
 from tools.search_tools import SearchTools
